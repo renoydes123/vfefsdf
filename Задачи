@@ -1,0 +1,52 @@
+package com.company;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main (String[] args) {
+        /*
+        String ph = "375-29-1234567";
+        String[] buf = ph.split("-");
+       if (buf[0] =="375");
+        System.out.println("Код страны:" + buf[0]);
+        System.out.println("Код оператора:"+ buf[1]);
+        System.out.println("номер:" + buf [2]);
+        */
+/*
+        Scanner c = new Scanner (System.in);
+        String a = c.nextLine();
+        boolean b=a.contains("375");
+        if (b){
+        System.out.println("Спасибо");}
+        else
+        System.out.println("Error 404");
+        if (b){
+            System.out.println("Введите своё имя");}
+
+        String n = c.nextLine();
+        System.out.println("Спасибо" + n);
+*/
+/*
+String c="letov";
+        System.out.println(c.toLowerCase());
+        System.out.println(c.toUpperCase());
+*/
+/*
+Scanner c = new Scanner(System.in);
+        System.out.println("Слово введи");
+String a = c.nextLine();
+        System.out.println(a.replace('а','о'));
+        */
+
+Scanner a = new Scanner(System.in);
+        System.out.println("Введите что-нибудь");
+        String c = a.next();
+        System.out.println("Ещё что-нибудь");
+        String n = a.next();
+
+        if (c.equals(n)){
+            System.out.println("Они одинаковые");
+        }
+        else
+        System.out.println("Они не одинаковы");
