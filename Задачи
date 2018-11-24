@@ -50,3 +50,21 @@ Scanner a = new Scanner(System.in);
         }
         else
         System.out.println("Они не одинаковы");
+/*
+Scanner a = new Scanner(System.in);
+        System.out.println("Введите что-нибудь");
+        String c = a.next();
+        System.out.println("Ещё что-нибудь");
+        String empty = " ";
+        String b = a.next();
+        System.out.println("Результат склеивания двух заданных строк");
+        String n = c+empty+b;
+        System.out.println(n);
+*/
+/*
+Scanner a = new Scanner(System.in);
+        System.out.println("Введите слово");
+        String b = a.next();
+        String n="х";
+        System.out.println(b.indexOf(n));
+        */
