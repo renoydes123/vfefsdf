@@ -68,3 +68,16 @@ Scanner a = new Scanner(System.in);
         String n="х";
         System.out.println(b.indexOf(n));
         */
+/*
+Scanner a = new Scanner(System.in);
+        System.out.println("Сколько вам лет?");
+        int b = a.nextInt();
+        int n = 100;
+        int m = n-b;
+        System.out.println("Вам осталось жить до 100 лет:");
+        int g = (n-b)/4;
+        int j = g*1;
+                int h = m*365;
+                int k = h+j;
+        System.out.println(k + " дней ");
+        */
