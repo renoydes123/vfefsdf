@@ -81,3 +81,73 @@ Scanner a = new Scanner(System.in);
                 int k = h+j;
         System.out.println(k + " дней ");
         */
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ||||||
+        package com.company;
+
+import javax.swing.*;
+import java.util.Scanner;
+class Book {//Создание класса
+    private int pages;//Перменная старниц
+    public String name;//Переменная с названием
+    private float weight;//Переменная с массой
+
+    public void getInfoBook() {//Информация о книжке
+        System.out.println("В книге " + name + " находиться " + pages + " страниц.");//Вывод названия книги и страниц
+        System.out.println("При этом она весит " + weight + " кг!");
+        System.out.println();
+    }
+
+    Book(int pages, float weight) {
+        this.pages = pages;
+        this.weight = weight;
+    }
+
+    Book(int pages, float weight, String name) {
+        this.pages = pages;
+        this.weight = weight;
+        this.name = name;
+
+    }
+}
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        Book objBook = new Book(6,7f,"Thoi");
+      //  objBook.getInfoBook();
+        Book objBook2 = new Book(8,10f, "Книга");
+      //  objBook2.getInfoBook();
+        Book objBook3 = new Book(10,3467f,"Book");
+     //   objBook3.getInfoBook();
+        Book objBook4 = new Book(179,34675467f,"Book part 2");
+      //  objBook4.getInfoBook();
+        Scanner b = new Scanner(System.in);
+        System.out.println("jyguhijk");
+        String z = b.nextLine();
+        System.out.println(z);
+        if (z=="3"){
+           objBook3.getInfoBook();
+        } else
+        if (z=="Book part 2") {
+            objBook4.getInfoBook();
+        } else
+        if (z=="Книга") {
+            objBook2.getInfoBook();
+        } else
+        if (z=="Thoi") {
+            objBook.getInfoBook();
+        } else System.out.println("No info");
+    }
+    }
+
