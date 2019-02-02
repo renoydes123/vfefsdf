@@ -151,3 +151,50 @@ public class Main {
     }
     }
 
+
+|||||||||||||||||||||||||||||||||||||||||||||
+package com.company;
+import geom.Point;
+import geom.Rectange;
+public class Main {
+
+    public static void main(String[] args) {
+        Point p=new Point(15,9);
+        System.out.println(p.getX());
+        Point p2=new Point(12,10);
+        System.out.println(p2.getX());
+
+    }
+}
+
+||
+package geom;
+
+public class Point {
+    int x;
+    int y;
+
+   public Point() {
+        x= 15;
+        y=20;
+    }
+    public Point(int x,int y){
+this.x=x;
+this.y=y;
+    }
+        public  int getX(){
+            return x;
+        }
+        public int setX(int x1){
+            x=x1;
+            return x;
+        }
+        public int getY(){
+            return y;
+        }
+        public int setY(int y1){
+            y=y1;
+            return y1;
+
+    }
+}
