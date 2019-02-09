@@ -198,3 +198,64 @@ this.y=y;
 
     }
 }
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+POINT||||
+package geom;
+
+public class Point {
+    private int x;
+    private int y;
+
+    public String getX() {
+        return "Координата X = " + x;
+    }
+
+    public String getY() {
+        return "Координата Y = " + y;
+    }
+
+    public String getYX() {
+        return "Сумма координат = " + y + x;
+    }
+
+    public String getYminusX() {
+        return "Частное координат = " + x / y;
+    }
+
+    public String getYmisX() {
+       return "Умножение координат = " + x * y;
+    }
+   public Point() {
+            x = 1;
+            y = 2;
+        }
+    public Point( int x, int y){
+            this.x = x;
+            this.y = y;
+        }
+
+    }
+    |||
+    MAIN|||||
+package com.company;
+
+import geom.Point;
+
+
+public class  Main {
+    public static void main(String[] args) {
+        Point t1 = new Point();
+        Point t2 = new Point(10, 20);
+        System.out.println(t1.getX());
+        System.out.println(t2.getX());
+        System.out.println(t1.getY());
+        System.out.println(t2.getY());
+        System.out.println(t1.getYX());
+        System.out.println(t2.getYX());
+        System.out.println(t1.getYminusX());
+        System.out.println(t2.getYminusX());
+        System.out.println(t1.getYmisX());
+        System.out.println(t2.getYmisX());
+
+    }
+}
